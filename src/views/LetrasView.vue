@@ -1,16 +1,18 @@
 <script setup>
+import MenuAtrasTop from "../components/MenuAtrasTop.vue";
 import MenuView from "../views/MenuView.vue";
 </script>
 
 <template>
-  <nav>
-    <h1>AS - Lengua de señas</h1>
-    <img src="@/assets/img/bandera-colombia.png" alt="" />
-  </nav>
+  <MenuAtrasTop></MenuAtrasTop>
   <main>
     <h1>Letras</h1>
   </main>
   <MenuView></MenuView>
 </template>
 
-<style scoped></style>
+<style scoped>
+main {
+  background: var(-vtc-c-naranja);
+}
+</style>
