@@ -34,3 +34,30 @@ header a {
 header a:hover {
   color: var(--vt-c-verde-lima)
 }
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  overflow: scroll;
+  justify-content: center;
+}
+
+main * {
+  color: var(--vt-c-negro);
+}
+
+nav {
+  background: var(--vt-c-negro);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav img {
+  width: 48px;
+  height: 48px;
+  margin-left: 20px;
+}

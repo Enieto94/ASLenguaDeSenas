@@ -8,7 +8,7 @@ import MenuView from "../views/MenuView.vue";
     <img src="@/assets/img/bandera-colombia.png" alt="" />
   </nav>
   <main>
-    <h1>Juego</h1>
+    <h1>Numeros</h1>
   </main>
   <MenuView></MenuView>
 </template>

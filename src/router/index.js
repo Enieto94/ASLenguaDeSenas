@@ -24,6 +24,30 @@ const router = createRouter({
       // this generates a separate chunk (About.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import('../views/TemasView.vue')
+    },
+    {
+      path: '/letras',
+      name: 'letras',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/LetrasView.vue')
+    },
+    {
+      path: '/numeros',
+      name: 'numeros',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/NumerosView.vue')
+    },
+    {
+      path: '/colores',
+      name: 'colores',
+      // route level code-splitting
+      // this generates a separate chunk (About.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import('../views/ColoresView.vue')
     }
   ]
 })

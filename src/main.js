@@ -8,6 +8,9 @@ import './assets/main.css'
 // These can be imported from other files
 const Inicio = { template: '<div>El inicio</div>' }
 const Temas = { template: '<div>temas</div>' }
+const Letras = { template: '<div>letras</div>' }
+const Numeros = { template: '<div>Numeros</div>' }
+const Colores = { template: '<div>Colores</div>' }
 
 // 2. Define some routes
 // Each route should map to a component. The "component" can
@@ -16,7 +19,10 @@ const Temas = { template: '<div>temas</div>' }
 // We'll talk about nested routes later.
 const routes = [
 	{ path: '/', component: Inicio },
-	{ path: '/temas', component: Temas }
+	{ path: '/temas', component: Temas },
+	{ path: '/letras', component: Letras },
+	{ path: '/numeros', component: Numeros },
+	{ path: '/colores', component: Colores }
 ]
 
 const app = createApp(App)
